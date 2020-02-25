@@ -29,5 +29,11 @@ namespace InterviewPreparation
             else
                 Console.WriteLine($"first minimum {firstMin}, second minimum {secondMin}");
         }
+
+        public static void ExecuteSolution()
+        {
+            // InterviewPreparation.printSecondMinimum(new int[] { 10, 3, 2, 1, 1, 2, 3 });
+            // InterviewPreparation.printSecondMinimum(new int[] { 1, 1, 1, 1, 1, 1, 1 });
+        }
     }
 }

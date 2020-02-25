@@ -13,7 +13,8 @@ namespace InterviewPreparation
     // Explanation: 342 + 465 = 807.
     public class AddTwoNumbersSolution 
     {
-        public static ListNode AddTwoNumbers(ListNode l1, ListNode l2) {
+        public static ListNode AddTwoNumbers(ListNode l1, ListNode l2) 
+        {
             ListNode runner1 = l1;
             ListNode runner2 = l2;
             ListNode result;
@@ -42,7 +43,25 @@ namespace InterviewPreparation
             }
 
             return result.next;
-        }   
+        } 
+
+        public static void ExecuteSolution()
+        {
+                        // var input1 = new ListNode(2);
+            // var head1 = input1;
+            // input1.next = new ListNode(4);
+            // input1 = input1.next;
+            // input1.next = new ListNode(3);
+
+            // var input2 = new ListNode(5);
+            // var head2 = input2;
+            // input2.next = new ListNode(6);
+            // input2 = input2.next;
+            // input2.next = new ListNode(4);
+            // var head2 = new ListNode(5);
+
+            // var res = AddTwoNumbersSolution.AddTwoNumbers(null, head2);
+        }  
     }
 
     public class ListNode 

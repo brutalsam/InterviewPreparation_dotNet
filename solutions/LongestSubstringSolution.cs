@@ -5,7 +5,7 @@ namespace InterviewPreparation
 {
     public class LongestSubstringSolution
     {
-        // BrutForce Solution
+        // BrutForce Solution O(n^2)
         public static int LengthOfLongestSubstring(string s) 
         {
             if (s.Length == 0)
@@ -31,7 +31,7 @@ namespace InterviewPreparation
         }
 
         // Sliding window solution from leetcode
-        public static int lengthOfLongestSubstring(String s) 
+        public static int LengthOfLongestSubstring2(String s) 
         {
             var uniqueChars = new HashSet<char>();
             var result = 0;
@@ -47,6 +47,12 @@ namespace InterviewPreparation
                 }
             }
             return result;
+        }
+
+        public static void ExecuteSolution()
+        {
+            var len = LongestSubstringSolution.LengthOfLongestSubstring("abcabcbb");
+            var len2 = LongestSubstringSolution.LengthOfLongestSubstring2("abcabcbb");
         }
     }
 
