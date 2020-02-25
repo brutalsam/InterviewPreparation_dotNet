@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 namespace InterviewPreparation
 {
+    // Find target sum of any two elements in array
     public class TwoSumSolution {
     public static int[] TwoSum(int[] nums, int target) {
         var difDict = new Dictionary<int, int>();

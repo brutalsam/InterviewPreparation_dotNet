@@ -1,6 +1,7 @@
 using System;
 namespace InterviewPreparation
 {
+    // Find second minimum element in array
     public class InterviewPreparation
     {
         public static void printSecondMinimum(int[] input)
