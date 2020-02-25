@@ -6,7 +6,7 @@ namespace InterviewPreparation
     {
         static void Main(string[] args)
         {
-            var len = LongestSubstringSolution.LengthOfLongestSubstring("abcabcbb");
+            NumberOfIslands.ExecuteSolution();
         }
     }
 }
