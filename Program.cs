@@ -22,9 +22,10 @@ namespace InterviewPreparation
             // input2.next = new ListNode(6);
             // input2 = input2.next;
             // input2.next = new ListNode(4);
-            var head2 = new ListNode(5);
+            // var head2 = new ListNode(5);
 
-            var res = AddTwoNumbersSolution.AddTwoNumbers(null, head2);
+            // var res = AddTwoNumbersSolution.AddTwoNumbers(null, head2);
+            var len = LongestSubstringSolution.LengthOfLongestSubstring("abcabcbb");
         }
     }
 }

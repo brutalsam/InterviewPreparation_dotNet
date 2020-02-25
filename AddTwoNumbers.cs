@@ -23,9 +23,7 @@ namespace InterviewPreparation
             resultRunner = result;
             while (runner1 != null || runner2 != null || previousPeriod == 1)
             {
-                var val1 = runner1 != null ? runner1.val : 0;
-                var val2 = runner2 != null ? runner2.val : 0;
-                var resVal = val1 + val2 + previousPeriod;
+                var resVal = (runner1 != null ? runner1.val : 0) + (runner2 != null ? runner2.val : 0) + previousPeriod;
                 
                 if (resVal >= 10) 
                 {
