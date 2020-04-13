@@ -6,7 +6,7 @@ namespace InterviewPreparation
     {
         static void Main(string[] args)
         {
-            MergeTwoListsSolution.ExecuteSolution();
+            ClimbStairs.TestSolution();
         }
     }
 }
