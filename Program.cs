@@ -6,7 +6,7 @@ namespace InterviewPreparation
     {
         static void Main(string[] args)
         {
-            Life.TestSolution();
+            FirstUniqCharSolution.ExecuteSolution();
         }
     }
 }
